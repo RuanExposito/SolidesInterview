@@ -1,0 +1,119 @@
+[
+  {
+    "uri": "features/step_definitions/Talent_bank.feature",
+    "id": "talent-bank-application",
+    "keyword": "Feature",
+    "name": "Talent bank application",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "talent-bank-application;talent-bank-application",
+        "keyword": "Scenario",
+        "name": "Talent bank application",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.34.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.34.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/before_hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am at talent bank page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/step_definitions/Talent_bank.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11038271000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I select a job vacancy",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/step_definitions/Talent_bank.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2712102000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click in button \"Candidatar nesta vaga\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/step_definitions/Talent_bank.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7560897000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I must be at login page",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/step_definitions/Talent_bank.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61563000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/after_hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001828000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.34.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

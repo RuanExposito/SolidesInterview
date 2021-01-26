@@ -1,0 +1,8 @@
+require 'pry'
+require 'rspec'
+require 'selenium-webdriver'
+require 'capybara'
+require 'capybara/cucumber'
+require 'capybara/rspec'
+require 'httparty'
+require 'capybara/cucumber'
