@@ -14,4 +14,5 @@ at_exit do
   options = { report_title: "BDD Simples - Entrevista Sólides" }
 
   ReportBuilder.build_report options
+  #Usado pra fazer o report HTML
 end
